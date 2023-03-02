@@ -1,0 +1,97 @@
+.mainRegister {
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  /* color: #888; */
+}
+.mainRegister > .registerBx {
+  width: 300px;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+
+.mainRegister > .registerBx > .registerHead {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+
+.mainRegister > .registerBx > .about {
+  padding: 0 20px;
+  font-size: 13px;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+.mainRegister > .registerBx > .about > h3 {
+  color: #888;
+  font-weight: 400;
+}
+
+.mainRegister > .registerBx > form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 10px;
+  /* border: 1px solid #000; */
+}
+
+.mainRegister > .registerBx > form > .registerInputs {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+  color: #888;
+  /* border: 1px solid black; */
+}
+
+.mainRegister > .registerBx > form > .registerInputs input {
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  color: #888;
+  border: 1px solid rgb(219, 219, 219);
+}
+.mainRegister > .registerBx > form > .btnBx {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+}
+
+.mainRegister > .registerBx > form > .btnBx button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 0;
+  color: royalblue;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: none;
+}
+/*  */
+.mainRegister > .alredyhave {
+  width: 300px;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+
+.mainRegister > .alredyhave h4 {
+  font-weight: 400;
+  text-align: center;
+}

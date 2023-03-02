@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "phone": "8586864566",
+      "name": "katill",
+      "username": "katill_boyy",
+      "password": "123456",
+      "privateAccount": false,
+      "id": 1
+    },
+    {
+      "phone": "8586864566",
+      "name": "Arun",
+      "username": "admin2",
+      "password": "123456",
+      "privateAccount": false,
+      "id": 2
+    },
+    {
+      "phone": "8586864566",
+      "name": "Arun",
+      "username": "admin",
+      "password": "164645",
+      "privateAccount": false,
+      "id": 3
+    }
+  ],
+  "posts": [],
+  "comments": [],
+  "likes": [],
+  "saves": [],
+  "follows": []
+}
